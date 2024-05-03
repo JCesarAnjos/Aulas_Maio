@@ -59,3 +59,28 @@ ul.nav li a{
 	font-family: "Times New Roman", serif;
 	color: black;
 }
+ul.nav li:hover{
+	background-color: violet;
+}
+ul.nav li:hover a{
+	color: white;
+}
+section.rodape{
+	width: 90vw;
+	height: 10vh;
+	flex-direction: column;
+	background: linear-gradient(orange,violet);
+	margin-left: 5vw;
+	text-align: center;
+}
+section.rodape p{
+	font-size: 1vw;
+	color: black;
+	font-family: "Honk", system-ui;
+}
+iframe.video{
+	width: 60vw;
+	height: 60vh;
+	margin-top: 20vh;
+	margin-left: 20vw;
+}
