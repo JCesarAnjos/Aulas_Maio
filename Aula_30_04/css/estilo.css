@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+	background-image: url(../img/estadiotres.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+section.menu{
+	width: 60vw;
+	height: 30vh;
+	margin-left: 20vw;
+	margin-top: 15vh;
+	border: 3px solid white;
+	border-radius: 33px;
+	background-color:skyblue;
+	display: flex;
+	justify-content: center;
+}
+ul.nav{
+	list-style-type: none;
+	width: 60%;
+	height: 100;
+}
+/* upper-roman romanos maiúsculos
+	lower-roman romanos minúsculos
+	upper-alpha letras maiúsculas
+	lowe-alpha letras minúsculas
+	numeric números
+	square quadrado
+	circle círculo
+	dis bolinha fechada
+	list-style-image:url();
+	*/
+ul.nav li{
+	width: 100%;
+	text-align: center;
+	background-color: green;
+	border: 1px solid write;
+	border-radius: 33px;
+	margin-top: 2% ;
+}
+ul.nav li a{
+	text-decoration: none;
+	color: darkblue;
+	display: block;
+	 font-family: "Oswald", sans-serif;
+	 font-size: 5pt;
+}
+ul.nav li:hover{
+	background-color: limegreen;
+}
+section.conteudo{
+	width: 80vw;
+	height: 60vh;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	background-color: skyblue;
+	border-radius: 33px;
+	display: flex;
+	justify-content: center;
+}
+section.conteudo #tabela{
+	width: 45%;
+	height: 100%;
+	margin-right: 10%;
+
+}
+section.conteudo #tabela table{
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border:2px inset lime;
+	border-radius: 33px;
+	font size:17pt;
+}
+section.conteudo #tabela table th{
+	background-color: brown;
+	font-family: "Oswald", sans-serif;
+	
+}
+section.conteudo #tabela table td{
+	text-align: center;
+	border:1px solid black;
+}
+section.conteudo #imagem{
+	width: 45%;
+	height: 100%;
+
+}
+section.conteudo #imagem img{
+	width:90%;
+	height: 100%;
+}
+th.esquerda{
+	border-top-left-radius: 33px;
+}
+th.direita{
+	border-top-right-radius: 33px;
+}
+td.esq{
+	border-bottom-left-radius: 33px;
+}
+td.dir{
+	border-bottom-right-radius: 33px;
+}
+section.conteudo #tabela a{
+	text-align:center;
+	text-decoration:none;
+	color:yellow;
+	margin-left: 50%;
+}
