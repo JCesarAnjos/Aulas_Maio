@@ -4,6 +4,10 @@
 	<p><a href="calculadora.php" target="janela">Calculadora</a></p>
 	<p><a href="livros.php" target="janela">Livros</a></p>
 	<p><a href="perfil.php" target="janela">Perfil</a></p>
+	<p><a href="numeros.php" target="janela">Números</a></p>
+	<p><a href="escola.php" target="janela">Escola</a></p>
+	<p><a href="produto.php" target="janela">Produto</a></p>
+
 </section>
 <section class="conteudo">
 	<iframe name="janela" class="jan"></iframe>
