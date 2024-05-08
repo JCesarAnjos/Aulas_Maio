@@ -1,0 +1,12 @@
+<?php require_once 'cabecalho.php'; ?>
+<section class="menu">
+	<p><a href="parouimpar.php" target="janela">Par ou Ímpar</a></p>
+	<p><a href="calculadora.php" target="janela">Calculadora</a></p>
+	<p><a href="livros.php" target="janela">Livros</a></p>
+	<p><a href="perfil.php" target="janela">Perfil</a></p>
+</section>
+<section class="conteudo">
+	<iframe name="janela" class="jan"></iframe>
+</section>
+</body>
+</html>
