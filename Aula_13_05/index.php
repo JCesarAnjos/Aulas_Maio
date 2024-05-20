@@ -13,6 +13,7 @@
 		<li>O.O
 			<ol>
 				<li><a href="telahospedagem.php" target="janela">Hospedagem</a></li>
+				<li><a href="telaproduto.php" target="janela">Produto</a></li>
 			</ol>
 		</li>
 		<li>Exercícios
